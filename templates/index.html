@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+     <title>Het Patel</title>
+     
+    <section class="background firstsection" id="Home">
+        <div class="boxmain">
+            <div class="firsthalf">
+                <p class="textbig" id="intro1">Welcome to the Online Learning.</p>
+                <p class="textsm" id="intro2">Python and java are most famous and high demanded languages. if you want to learn them here we provide quick links for them,and if you want Other languages then and click on <a href="/tutorials" style="color: cyan; text-decoration: none;">Tutorials</a>.</p>
+
+                <div class="buttons">
+                    <a href="https://www.youtube.com/watch?v=aqvDTCpNRek&list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME" target="_blank"><button class="btn">Python</button></a>
+                    <a href="https://www.youtube.com/watch?v=ntLJmHOJ0ME&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q" target="_blank"><button class="btn">Java</button></a>
+                </div>    
+            </div>
+            <div class="secondhalf">
+                    <img src="{{ url_for('static', filename='images/laptop.jpg') }}" alt="laptop image">
+            </div>
+        </div>
+    </section>
+  
+    {% endblock %}

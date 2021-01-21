@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    opacity:0.5;
+}
+.btnsm:hover{
+    opacity:0.5;
+}
+.logo img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px 2px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.navlist{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.navlist li{
+    list-style: none;
+    padding: 13px 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+
+}
+.navlist li a:hover{
+    color: rgb(209, 47, 35);
+
+}
+.rightnav{
+    text-align: right;
+    width: 30%;
+    padding: 0px 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0,0,0.5) url('../images/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+} 
+.firstsection{
+    height: 100vh;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 80%;
+    border: 4px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 2px;
+}
+.textbig{
+     font-size:41px;
+     text-align: center;
+}
+.textsm{
+     font-size: 18px;
+}
+.btn{
+    padding: 8px 10px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+.btnsm{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 9px;
+}
+.section{
+    padding-top:10px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Ubuntu', sans-serif;
+}
+.left{
+      flex-direction: row-reverse;
+      padding-bottom: 15px;
+}
+.sectiontag{
+    font-size:35px;
+}
+.sectionsubtag{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.paras{
+    padding: 0px 60px;
+}
+.thumbnail img{
+    width: 185px;
+    border-radius: 20%;
+    border: 5px solid brown;
+}
+.contact{
+    background-color: darkgrey;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.form{
+    max-width:62%;;
+    margin: auto;
+}
+.form-input{
+    margin: 10px;
+    width: 100%;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn8{
+    border: 2px solid black;
+    color:black;
+    display: block;
+    margin: auto;
+}
+.text-foot{
+    text-align: center;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.burger{
+        display: none;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}

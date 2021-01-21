@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block body %}
+<title>About</title>
+<div class = main-container>
+   <div class="container">
+	     <img src="{{ url_for('static', filename='images/het.jpg') }}" alt="image of Front-end & Back-end developer" class="profile-img">
+	  <div class="profile-info">
+	 	<h1 class="h1-name">Het Patel</h1>
+	 	<p class="p-info">Front-end & Back-end developer</p>
+	 </div>
+   </div>
+   <div class="info">
+   	<p class = "p-info"> I am a student of viswakarma goverment engineering college. Here is link of my instagram account.</p><br>
+       <a href="https://instagram.com/cape_crusader_2709?igshid=dwc2sdlq43bq" target="_blank"><img src="{{ url_for('static', filename='images/instagram.svg') }}" alt="image of Front-end developer" class="insta-img"></a>
+
+   </div>
+</div>
+
+<br>
+
+<div class = main-container>
+   <div class="container">
+	     <img src="{{ url_for('static', filename='images/khush.jpg') }}" alt="image of Front-end developer"  class="profile-img">
+	  <div class="profile-info">
+	 	<h1 class="h1-name">Khush Patel</h1>
+	 	<p class="p-info">Front-end developer</p>
+	 </div>
+   </div>
+   <div class="info">
+   	<p class="p-info"> I am a student of viswakarma goverment engineering college. Here is link of my instagram account.</p><br>
+       <a href="https://instagram.com/cape_crusader_2709?igshid=dwc2sdlq43bq" target="_blank"><img src="{{ url_for('static', filename='images/instagram.svg') }}" alt="image of Front-end developer" class="insta-img"></a>
+
+   </div>
+</div>
+
+
+
+{% endblock %}

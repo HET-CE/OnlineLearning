@@ -1,0 +1,7 @@
+{
+  "parameter":
+  {
+     "local_uri": "mysql://root:@localhost/OnlineLearning",
+     "prod_uri": "mysql://root:@localhost/OnlineLearning"
+  }
+}

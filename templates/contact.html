@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+<title>Contact</title>
+<div style="background-color:red">
+ <form class="contact" id="contact" name = "contact" method="post" action="/contact">
+            <h2 class="text">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Username">
+            <input class="form-input" type="email" name="email" id="email" placeholder="E-mail">
+            <input class="form-input" type="tel" name="phone" id="phone" placeholder="Phone">
+            <input class="form-input" type="tel" name="pin" id="pin" placeholder="PIN code">
+            <input class="form-input" type="text" name="country" id="country" placeholder="Country">
+            <textarea class="form-input" cols="30" name="message" id="message" rows="10" placeholder="Enter text"></textarea>
+            <button class="btn btn8" type="submit" id="btn">Submit</button>
+        </div>
+
+      </form>
+
+</div>
+
+   {% endblock %}
